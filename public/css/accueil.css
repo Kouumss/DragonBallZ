@@ -1,0 +1,44 @@
+body {
+
+    margin: 0%;
+    padding: 0%;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+
+
+}
+
+nav li a {
+    color: yellow;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0px 80px;
+    text-shadow: 3px 4px 5px black;
+
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: orangered;
+    border: solid rgb(0, 0, 196) 1px;
+    2px;
+
+
+
+}
+
+nav>ul>li {
+    padding: 5px;
+    font-size: 22px;
+    text-shadow: 2px 3px 4px black;
+    text-transform: uppercase;
+
+}
