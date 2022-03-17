@@ -19,8 +19,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 800px;
-    height: 600px;
 
 }
 
@@ -34,6 +32,8 @@ body {
 .content {
     position: relative;
     border: solid black 3px;
+    width: auto;
+    height: 650px;
 }
 
 /* Carousel content stylings */
@@ -221,9 +221,6 @@ body {
     left: -300%;
 }
 
-/* When we focus on the button, the 
-        background color changes */
-        
 .slide-btn:focus {
-    background-color: rgba(0, 0, 0, 0.379);
+    background-color: black;
 }
